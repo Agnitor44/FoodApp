@@ -1,0 +1,46 @@
+div.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: #cdcdf5;
+  background-image: url("../images/dish.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5vh;
+  position: relative;
+}
+
+div.footer div.textureFoot {
+  background-color: rgba(191, 247, 60, 0.418);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.footer div.textureFoot h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 66px;
+}
+
+div.footer div.textureFoot a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background-color: black;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=footer.css.map */

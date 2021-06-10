@@ -1,0 +1,223 @@
+$theme: rgb(137, 240, 111);
+
+div.bar {
+    width: 30%;
+    height: auto;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   transition: 0.4s;
+    position: fixed;
+    z-index: 2000;
+  transform: translateX(-100%);
+
+    left: 1%;
+    div.formZone {
+        margin-top: 50px;
+      
+       
+         background-image: linear-gradient(to right, #f5ffb3, #f0ff94, #ebff74, #e7f59c, #effaa8);
+         
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+        padding: 10px 0;
+        position: relative;
+        button.closeFilter {
+            z-index: 99999;
+            background-color: $theme;
+            border: none;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            i {
+                font-size: 26px;
+                padding: 2px;
+            }
+        }
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+    }
+    form  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   
+        width: 300px;
+        div.search {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input.search {
+                width: 100%;
+                margin: 10px 0;
+               
+            }
+        }
+      
+        div.filterZone {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px 0;
+            label {
+                width:35%;
+                position: relative;
+                display: flex;
+                height: 20px;
+                align-items: center;
+                justify-content: space-between;
+            }
+            input {
+           
+            }
+        }
+        div.calCal {
+            width: 90%;
+            div.calCalMonitor {
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-evenly;
+                span {
+                    font-weight: bold;
+                    width: 90px;
+                    text-align: center;
+                    padding: 2px 5px;
+                    background-color: white;
+                }
+            }
+        }
+        button {
+           
+            width: 40%;
+            padding: 5px;
+            margin-top: 20px;
+            border: none;
+            background-color: $theme ;
+            height: 40px;
+
+            i {
+                transition: 0.4s;
+                font-size: 24px;
+                &:hover {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+    div.seeMore {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 60px;
+        span {
+            font-size: 30px;
+         
+         
+          
+        }
+         button {
+             width: 40px;
+             background-color: white;
+             border: none;
+             padding: 5px 10px;
+             font-size: 30px;
+             font-family: 'Lato', sans-serif;
+             cursor: pointer;
+         }
+     }
+}
+
+@media(max-width: 960px) {
+    div.bar {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       transition: 0.4s;
+        position: fixed;
+        z-index: 2000;
+      transform: translateX(-100%);
+        left: 1%;
+       
+        div.formZone {
+        
+          
+        
+            button.closeFilter {
+          
+                i {
+               
+                }
+            }
+            h1 {
+            
+            }
+        }
+        form  {
+          
+            div.search {
+             
+                input.search {
+               
+                   
+                }
+            }
+          
+            div.filterZone {
+        
+                label {
+              
+                }
+                input {
+               
+                }
+            }
+            div.calCal {
+            
+                div.calCalMonitor {
+            
+                    span {
+                  
+                    }
+                }
+            }
+            button {
+               
+         
+    
+                i {
+             
+                    &:hover {
+                  
+                    }
+                }
+            }
+        }
+        div.seeMore {
+   
+            span {
+           
+             
+             
+              
+            }
+             button {
+         
+             }
+         }
+    }
+}

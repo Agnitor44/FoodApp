@@ -1,0 +1,59 @@
+div.listWrapper {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 80px);
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.foodBox {
+  display: inline-block;
+  width: 312px;
+  height: 231px;
+  background-color: #12684b;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 6px 5px 14px 4px rgba(0, 0, 0, 0.32);
+          box-shadow: 6px 5px 14px 4px rgba(0, 0, 0, 0.32);
+}
+
+div.foodBox div.infoBox {
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+  background-color: rgba(177, 209, 33, 0.911);
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.foodBox div.infoBox a {
+  text-decoration: none;
+}
+
+div.foodBox div.infoBox a h1 {
+  color: black;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 22px;
+}
+/*# sourceMappingURL=list.css.map */

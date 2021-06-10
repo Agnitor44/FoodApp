@@ -1,0 +1,10 @@
+div.load {
+ background-image: url('../images/Ellipsis-1s-200px\ \(1\).gif');
+    display: flex;
+    margin: 50px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    min-height: 80vh;
+}

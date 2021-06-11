@@ -4,12 +4,12 @@ import '../App.css';
 import '../styles/load.css'
 import Filter from './Filter'
 import Footer from './Footer'
-const KEY = "23b1227d61fd4293a4be36a8b417258569"
+const KEY = "23b1227d61fd4293a4be36a8b4172585"
 
 export default function Home() {
 
     const [filters, setFilters] = useState('')
-    
+  
     const [data, setData] = useState(null)
     const [can, setCan] = useState(false)
 
@@ -33,7 +33,12 @@ export default function Home() {
     useEffect(async() => {
         setCan(false)
      await fetch(`https://api.spoonacular.com/recipes/complexSearch?${filters[1] ? "query="+filters[1] +"&" : ""}${filters[0] ? "type="+ filters[0]+"$": ""}${filters[2] ? "minCalories="+filters[2][0]+"&"+"maxCalories="+filters[2][1]+"&": ""}${filters[3]?"offset="+filters[3]+"&":""}number=12&apiKey=${KEY}`)
-      .then(res => res.json()).then(response => setData(response))
+      .then(res => res.json()).then(response =>
+        {
+       
+          setData(response)
+        }
+        )
       setCan(true)
     }, [filters])
 
@@ -48,7 +53,9 @@ export default function Home() {
             {
                     can ?
                     <>
-                    <HomeLayout   items = {data.results}/>
+         
+            <HomeLayout   items = {data.results}/>
+       
                     </>
                     :
                     <div className="load">

@@ -1,4 +1,4 @@
-$theme: rgb(98, 224, 39);
+$theme:   #fad816;
 
 section.foodPage {
     width: 100%;
@@ -95,7 +95,7 @@ section.foodPage {
         border-top: 1px solid black;
         border-bottom: 1px solid black;
       div.ingElement {
-          
+        box-shadow: 6px 5px 14px 4px rgba(0,0,0,0.32); 
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -196,6 +196,7 @@ div.simWrap {
     align-items: center;
    padding: 10px;
     justify-content: space-evenly;
+    box-shadow: 6px 5px 14px 4px rgba(0,0,0,0.32);
     a {
       color: black;
       font-weight: bold;

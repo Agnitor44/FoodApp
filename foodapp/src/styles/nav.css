@@ -11,8 +11,8 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#f5ffb3), color-stop(#f0ff94), color-stop(#ebff74), color-stop(#e5ff4e), to(#ddff007c));
-  background-image: linear-gradient(to right, #f5ffb3, #f0ff94, #ebff74, #e5ff4e, #ddff007c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(rgba(250, 216, 22, 0.486275)), to(#fad816));
+  background-image: linear-gradient(90deg, #fff, rgba(250, 216, 22, 0.486275), #fad816);
   z-index: 999;
 }
 

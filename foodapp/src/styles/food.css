@@ -138,6 +138,8 @@ section.foodPage div.ingBox {
 }
 
 section.foodPage div.ingBox div.ingElement {
+  -webkit-box-shadow: 6px 5px 14px 4px rgba(0, 0, 0, 0.32);
+          box-shadow: 6px 5px 14px 4px rgba(0, 0, 0, 0.32);
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,7 +154,7 @@ section.foodPage div.ingBox div.ingElement {
   height: 40px;
   margin: 10px 5px;
   min-width: 10%;
-  background-color: #62e027;
+  background-color: #fad816;
   border-radius: 10px;
 }
 
@@ -208,7 +210,7 @@ section.foodPage div.foodRecipe h3 button {
   width: 20px;
   height: 20px;
   margin-left: 5px;
-  background-color: #62e027;
+  background-color: #fad816;
 }
 
 section.foodPage div.foodRecipe ol {
@@ -264,7 +266,7 @@ section.foodPage div.simSection div.simWrap {
 section.foodPage div.simSection div.simWrap div.simBox {
   width: 300px;
   margin: 10px 40px;
-  background-color: #62e027;
+  background-color: #fad816;
   border-radius: 10px;
   height: 100px;
   display: -webkit-box;
@@ -277,6 +279,8 @@ section.foodPage div.simSection div.simWrap div.simBox {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-shadow: 6px 5px 14px 4px rgba(0, 0, 0, 0.32);
+          box-shadow: 6px 5px 14px 4px rgba(0, 0, 0, 0.32);
 }
 
 section.foodPage div.simSection div.simWrap div.simBox a {

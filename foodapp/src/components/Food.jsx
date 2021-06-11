@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 import '../styles/load.css'
 import { useDispatch, useSelector } from 'react-redux';
 
-const KEY = "23b1227d61fd4293a4be36a8b417258569"
+const KEY = "23b1227d61fd4293a4be36a8b4172585"
 export default function Food() {
     const params = useParams()
     const [can, setCan] = useState(false)
